@@ -26,7 +26,11 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bart_simpson" translatesAutoresizingMaskIntoConstraints="NO" id="Lm2-Lf-uXP">
-                                <rect key="frame" x="67" y="269" width="240" height="128"/>
+                                <rect key="frame" x="67" y="163" width="240" height="128"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="icono_mail" translatesAutoresizingMaskIntoConstraints="NO" id="m6h-Tm-NV0">
+                                <rect key="frame" x="67" y="389" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                         </subviews>
@@ -40,5 +44,6 @@
     </scenes>
     <resources>
         <image name="bart_simpson" width="220" height="328"/>
+        <image name="icono_mail" width="1024" height="1024"/>
     </resources>
 </document>
